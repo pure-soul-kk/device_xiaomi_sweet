@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit some common pixys stuff.
 $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # PixysOS Flag
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 TARGET_GAPPS_ARCH := arm64
