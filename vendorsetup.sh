@@ -10,8 +10,8 @@ rm -rf hardware/qcom-caf/sm8150/display
 
 git clone -b udc https://github.com/ProjectElixir-Devices/device_xiaomi_sm6150-common_sweet device/xiaomi/sm6150-common
 git clone --depth=1 https://github.com/ProjectElixir-Devices/vendor_xiaomi_sweet vendor/xiaomi/sweet
-git clone --depth=1 https://github.com/ProjectElixir-Devices/vendor_xiaomi_sm6150-common-sweet vendor/xiaomi/sm6150-common
-git clone --depth=1 https://github.com/pure-soul-kk/android_kernel_xiaomi_sm6150.git kernel/xiaomi/sm6150
+git clone --depth=1 -b udc https://github.com/ProjectElixir-Devices/vendor_xiaomi_sm6150-common-sweet vendor/xiaomi/sm6150-common
+git clone --depth=1 https://github.com/pure-soul-kk/kernel_xiaomi_sm6150 kernel/xiaomi/sm6150
 git clone --depth=1 https://gitlab.com/itsshashanksp/android_prebuilts_clang_host_linux-x86_clang-r498229b.git -b 13.0 prebuilts/clang/host/linux-x86/r498229b
 git clone --depth=1 https://github.com/LineageOS/android_hardware_lineage_compat.git hardware/lineage/compat
 git clone --depth=1 https://github.com/ProjectElixir-Devices/hardware_xiaomi -b sweet hardware/xiaomi
