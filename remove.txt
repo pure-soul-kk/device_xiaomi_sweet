@@ -5,3 +5,4 @@ hardware/xiaomi
 hardware/lineage/compat
 prebuilts/clang/host/linux-x86/r498229b
 hardware/qcom-caf/sm8150
+packages/apps/Nfc

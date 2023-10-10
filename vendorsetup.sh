@@ -18,3 +18,5 @@ git clone --depth=1 https://github.com/ProjectElixir-Devices/hardware_xiaomi -b 
 git clone https://github.com/DerpFest-AOSP/hardware_qcom_audio -b 14-caf-sm8150 hardware/qcom-caf/sm8150/audio
 git clone https://github.com/DerpFest-AOSP/hardware_qcom_media -b 14-caf-sm8150 hardware/qcom-caf/sm8150/media
 git clone https://github.com/DerpFest-AOSP/hardware_qcom_display -b 14-caf-sm8150 hardware/qcom-caf/sm8150/display
+rm -rf packages/apps/Nfc
+git clone https://github.com/Evolution-X/packages_apps_Nfc.git packages/apps/Nfc
