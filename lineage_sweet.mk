@@ -14,6 +14,15 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+WITH_GMS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_ENABLE_BLUR := true
+RISING_MAINTAINER := кяιѕниα
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="Snapdragon 732G" \
+    RISING_MAINTAINER="кяιѕниα"
+
 PRODUCT_NAME := lineage_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
